@@ -1,17 +1,19 @@
 {
   "main_script": "src/main.py",
   "headless": true,
-  "name": "Import YouTube videos",
-  "description": "Import videos by urls provided in text file",
+  "name": "Create project with initial meta",
+  "description": "create a new empty project with a meta of another project",
   "categories": [
-    "import",
-    "videos"
+    "images",
+    "videos",
+    "pointclouds",
+    "dicom",
+    "annotation transformation"
   ],
   "context_menu": {
-    "context_category": "Import",
-    "target": ["files_file"]
+    "context_category": "Transform"
   },
-  "icon": "https://user-images.githubusercontent.com/115161827/204161276-178c788e-2ea1-4127-a37c-7ae8e236e674.jpg",
+  "icon": "xxx",
   "icon_cover": true,
-  "poster": "https://user-images.githubusercontent.com/115161827/204161277-3366a8b4-656f-4e59-9ecd-faa8033f60ff.jpg"
+  "poster": "xxx"
 }

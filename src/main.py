@@ -3,25 +3,26 @@ import os
 from dotenv import load_dotenv
 
 if sly.is_development():
-    load_dotenv("local.env")
     load_dotenv(os.path.expanduser("~/supervisely.env"))
+    load_dotenv("local.env")
 
 api = sly.Api.from_env()
 workspace_id = sly.env.workspace_id()
 project_id = sly.env.project_id()
 
-initial_project_meta = api.project.get_meta(project_id)
-initial_project_info = api.project.get_info_by_id(project_id)
+project_info = api.project.get_info_by_id(project_id)
+project_meta = api.project.get_meta(project_id)  # classes and tags
 
 new_project = api.project.create(
     workspace_id=workspace_id,
-    name=initial_project_info.name,
-    type=initial_project_info.type,
+    name=project_info.name + "_new",
+    type=project_info.type,
     change_name_if_conflict=True,
 )
 
-new_meta = api.project.update_meta(new_project.id, initial_project_meta)
+# upload classes and tags into new project on server
+api.project.update_meta(new_project.id, project_meta)
 
-print(
-    f"New project with initial project meta has been successfully created. New project id: {new_project.id}"
-)
+print(f"New project [id={new_project.id}] has been successfully created")
+print(f"And initialized with these classes and tags:")
+print(project_meta)
