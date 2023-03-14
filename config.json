@@ -1,8 +1,8 @@
 {
   "main_script": "src/main.py",
   "headless": true,
-  "name": "Create project with initial meta",
-  "description": "create a new empty project with a meta of another project",
+  "name": "Create project with original meta",
+  "description": "Create a new empty project with a meta of original project",
   "categories": [
     "images",
     "videos",
@@ -11,9 +11,15 @@
     "annotation transformation"
   ],
   "context_menu": {
-    "context_category": "Transform"
+    "context_category": "Transform",
+    "target": [
+      "images_project",
+      "videos_project",
+      "point_cloud_project",
+      "volumes_project"
+    ]
   },
-  "icon": "xxx",
+  "icon": "https://user-images.githubusercontent.com/115161827/225105878-d52512ed-32f3-493a-a1af-1f1708fa8705.png",
   "icon_cover": true,
-  "poster": "xxx"
+  "poster": "https://user-images.githubusercontent.com/115161827/225105863-a8dab5d3-1d9b-443a-bfd7-4b7401adb737.jpg"
 }
