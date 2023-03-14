@@ -27,4 +27,5 @@ print(f"New project [id={new_project.id}] has been successfully created")
 print(f"And initialized with these classes and tags:")
 print(project_meta)
 
-sly.output.set_project()
+# tell the platform that the new project is created and has to be displayed as the task output
+sly.output.set_project(id=new_project.id)
