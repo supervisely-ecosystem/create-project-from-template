@@ -27,6 +27,4 @@ print(f"New project [id={new_project.id}] has been successfully created")
 print(f"And initialized with these classes and tags:")
 print(project_meta)
 
-if sly.is_production():
-    task_id = sly.env.task_id()
-    api.task.set_output_project(task_id, new_project.id, new_project.name)
+sly.output.set_project()
