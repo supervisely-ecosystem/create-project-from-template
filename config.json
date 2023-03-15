@@ -1,14 +1,14 @@
 {
   "main_script": "src/main.py",
   "headless": true,
-  "name": "Create project with original meta",
+  "name": "Create project from template",
   "description": "Create a new empty project with a meta of original project",
   "categories": [
     "images",
     "videos",
     "pointclouds",
     "dicom",
-    "annotation transformation"
+    "project management"
   ],
   "context_menu": {
     "context_category": "Transform",
@@ -16,7 +16,8 @@
       "images_project",
       "videos_project",
       "point_cloud_project",
-      "volumes_project"
+      "volumes_project",
+      "point_cloud_episodes_project"
     ]
   },
   "icon": "https://user-images.githubusercontent.com/115161827/225105878-d52512ed-32f3-493a-a1af-1f1708fa8705.png",
