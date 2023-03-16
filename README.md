@@ -1,5 +1,5 @@
 <div align="center" markdown>
-<img src="https://user-images.githubusercontent.com/115161827/225105863-a8dab5d3-1d9b-443a-bfd7-4b7401adb737.jpg"/>  
+<img src="https://user-images.githubusercontent.com/115161827/225417833-f1e37eb9-30e1-4aed-b4cc-468234a0b3bc.jpg"/>  
 
 # Create project from template
 
