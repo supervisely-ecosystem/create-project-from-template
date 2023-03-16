@@ -2,6 +2,11 @@
   "main_script": "src/main.py",
   "headless": true,
   "name": "Create project from template",
+  "release": {
+    "version": "v1.0.0",
+    "name": "init"
+  },
+  "slug": "gv/create_project_from_template",
   "description": "Create a new empty project with a meta of original project",
   "categories": [
     "images",
