@@ -33,7 +33,7 @@ App supports all project types:
 
 2. Right click to the project and run app from context menu
 
-<img src="xxx" >
+<img src="https://user-images.githubusercontent.com/115161827/226191834-2eeebdf3-6ac4-4060-b1d4-47f2197ccdc2.gif" >
 
 ## Result
 
