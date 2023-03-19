@@ -16,7 +16,6 @@
     "project management"
   ],
   "context_menu": {
-    "context_category": "Transform",
     "target": [
       "images_project",
       "videos_project",
