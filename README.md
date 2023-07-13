@@ -12,7 +12,7 @@
 [![](https://img.shields.io/badge/slack-chat-green.svg?logo=slack)](https://supervise.ly/slack)
 ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/supervisely-ecosystem/create-project-from-template)
 [![views](https://app.supervise.ly/img/badges/views/supervisely-ecosystem/create-project-from-template.png)](https://supervise.ly)
-[![runs](https://app.supervise.ly/img/badges/runs/supervisely-ecosystem/ccreate-project-from-template.png)](https://supervise.ly)
+[![runs](https://app.supervise.ly/img/badges/runs/supervisely-ecosystem/create-project-from-template.png)](https://supervise.ly)
 
 </div>
 
