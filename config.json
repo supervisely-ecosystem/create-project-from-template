@@ -7,7 +7,7 @@
     "name": "init"
   },
   "slug": "gv/create_project_from_template",
-  "docker_image": "supervisely/base-py-sdk:6.72.70",
+  "docker_image": "supervisely/base-py-sdk:6.73.93",
   "description": "Create a new empty project with a meta of original project",
   "categories": [
     "images",
@@ -27,5 +27,6 @@
   },
   "icon": "https://user-images.githubusercontent.com/115161827/225373213-53fabf98-3c5e-49e5-9f64-cd33be2273ea.png",
   "icon_cover": true,
-  "poster": "https://user-images.githubusercontent.com/115161827/225417833-f1e37eb9-30e1-4aed-b4cc-468234a0b3bc.jpg"
+  "poster": "https://user-images.githubusercontent.com/115161827/225417833-f1e37eb9-30e1-4aed-b4cc-468234a0b3bc.jpg",
+  "min_instance_version": "6.9.22"
 }
