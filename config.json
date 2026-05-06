@@ -22,7 +22,8 @@
       "videos_project",
       "point_cloud_project",
       "volumes_project",
-      "point_cloud_episodes_project"
+      "point_cloud_episodes_project",
+      "meshes_project"
     ]
   },
   "icon": "https://user-images.githubusercontent.com/115161827/225373213-53fabf98-3c5e-49e5-9f64-cd33be2273ea.png",
